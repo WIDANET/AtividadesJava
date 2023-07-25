@@ -8,26 +8,27 @@ public class Problema_If_Else {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		// variável
+		// VARIÁVEL
+		
 		int horas;
 		
-		// entrada de dados
+		// ENTRADA DE DADOS
+		
 		System.out.print("Que horas são? ");
 		horas = sc.nextInt();
 		
-		// estrutura condicional
+		// ESTRUTURA CONDICIONAL
+		
 		if (horas < 12) {
 			System.out.println("Bom dia!");
 			
 		}
-		else {
-			if (horas < 18) {
-				System.out.println("Boa tarde!");
-			}
-			else {
-				System.out.println("Boa noite!");
-			}
+		else if (horas < 18) {
+			System.out.println("Boa tarde!");
 		}
+		else {
+			System.out.println("Boa noite!");
+			}
 		
 		
 		sc.close();

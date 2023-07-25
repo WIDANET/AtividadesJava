@@ -34,6 +34,7 @@ public class Problema_Salario {
 		System.out.println("(=º-º=)");
 
 		// ATUALIZAÇÃO
+		// Teste GIT
 	}
 
 }

@@ -10,20 +10,20 @@ public class Problema_metroQuadrado {
 
 		// VARIÁVEIS
 
-		double largura, cumprimento, metroQuadrado, area, preco;
+		double largura, comprimento, metroQuadrado, area, preco;
 
 		// ENTRADA DE DADOS
 
 		System.out.print("Digite a largura do terreno: ");
 		largura = sc.nextDouble();
-		System.out.print("Digite o cumprimento do terreno: ");
-		cumprimento = sc.nextDouble();
+		System.out.print("Digite o comprimento do terreno: ");
+		comprimento = sc.nextDouble();
 		System.out.print("Digite o valor do metro quadraro: ");
 		metroQuadrado = sc.nextDouble();
 
 		// PROCESSAMENTO
 
-		area = largura * cumprimento;
+		area = largura * comprimento;
 		preco = area * metroQuadrado;
 
 		// EXIBIR NA TELA

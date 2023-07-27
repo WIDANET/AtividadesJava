@@ -50,13 +50,13 @@ public class Problema_PostoDeCombustíveis {
 		System.out.println("Gasolina: " + gasolina);
 		System.out.println("Diesel: " + diesel);
 		
-		// "LIMPATELA" ADICIONADO ANTES E DEPOIS DA SAÍDA DE DADOS PARA DEIXAR O CONSOLE MAIS LIMPO
-		
 		limpatela = 0;
 		while (limpatela != 5) {
 			System.out.println();
 			limpatela += 1;
 		}
+		
+		// "LIMPATELA" ADICIONADO ANTES E DEPOIS DA SAÍDA DE DADOS PARA DEIXAR O CONSOLE MAIS LIMPO
 
 		sc.close();
 

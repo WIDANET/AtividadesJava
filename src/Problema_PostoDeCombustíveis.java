@@ -8,7 +8,7 @@ public class Problema_PostoDeCombustíveis {
 
 		// VARIÁVEIS
 
-		int alcool = 0, gasolina = 0, diesel = 0, tipo = 0;
+		int alcool = 0, gasolina = 0, diesel = 0, tipo = 0, limpatela= 0;
 
 		// ENTRADA E PROCESSAMENTO DE DADOS
 
@@ -37,13 +37,26 @@ public class Problema_PostoDeCombustíveis {
 			}
 		}
 
-		// SAÍDA DE DADOS
+		// SAÍDA DE DADOS 
+		
+		while (limpatela != 10) {
+			System.out.println();
+			limpatela += 1;
+		}
 
 		System.out.println();
 		System.out.println("Muito obrigado!");
 		System.out.println("Alcool: " + alcool);
 		System.out.println("Gasolina: " + gasolina);
 		System.out.println("Diesel: " + diesel);
+		
+		// "LIMPATELA" ADICIONADO ANTES E DEPOIS DA SAÍDA DE DADOS PARA DEIXAR O CONSOLE MAIS LIMPO
+		
+		limpatela = 0;
+		while (limpatela != 5) {
+			System.out.println();
+			limpatela += 1;
+		}
 
 		sc.close();
 

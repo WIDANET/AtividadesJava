@@ -21,8 +21,14 @@ public class Problema_DoWhile {
 		
 		System.out.println("Deseja continuar? (S/N) ");
 		resp = sc.next().charAt(0);
+		
+		while (resp != 'n' && resp != 's') {
+			System.out.println("Opção invlálida!");
+			System.out.println("Deseja continuar? (S/N) ");
+			resp = sc.next().charAt(0);
+			}
 
-		} while ( resp != 'n');
+		} while (resp != 'n');
 		
 		sc.close();
 

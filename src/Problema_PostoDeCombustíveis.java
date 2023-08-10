@@ -38,7 +38,10 @@ public class Problema_PostoDeCombustíveis {
 		}
 
 		// SAÍDA DE DADOS 
-		
+		if (alcool == 0 && gasolina == 0 && diesel == 0) {
+			System.out.println("Obrigado(a), volte sempre!");
+		}
+		else {
 		while (limpatela != 10) {
 			System.out.println();
 			limpatela += 1;
@@ -59,7 +62,7 @@ public class Problema_PostoDeCombustíveis {
 		// "LIMPATELA" ADICIONADO ANTES E DEPOIS DA SAÍDA DE DADOS PARA DEIXAR O CONSOLE MAIS LIMPO
 
 		sc.close();
-
+		}
 	}
 
 }

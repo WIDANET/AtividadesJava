@@ -8,10 +8,15 @@ public class Problema_SenhaComWhile {
 		
 		// VARIÁVEIS 
 		
-		int senha = 2002;
+		double senha = -1;
 		int login;
 		
 		// ENTRADA DE DADOS
+		
+		while ( senha != 0 && senha < 0) {
+			System.out.println("Cadastre sua senha: ");
+			senha = sc.nextDouble();
+		}
 		
 		System.out.print("Digite sua senha de acesso: ");
 		login = sc.nextInt();

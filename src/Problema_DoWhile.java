@@ -17,6 +17,7 @@ public class Problema_DoWhile {
 		temp = sc.nextDouble();
 		F = 9.0 * temp / 5.0 + 32.0;
 		
+		
 		System.out.printf("A temperatura em Fahrenheit é: %.1f%n", F);
 		
 		System.out.println("Deseja continuar? (S/N) ");
